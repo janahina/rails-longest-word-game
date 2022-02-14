@@ -1,0 +1,11 @@
+<div class="container">
+
+  <div class="your-answer">
+    <h1><%= "Your results:" %></h1>
+    <%= @score %>
+
+    <h1><%= "Your score is:" %></h1>
+    <h2><%= @words["length"] %></h2>
+  </div>
+  <%= link_to "Play a new game", new_path %>
+</div>
